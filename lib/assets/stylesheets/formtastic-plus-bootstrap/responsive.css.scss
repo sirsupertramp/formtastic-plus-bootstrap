@@ -92,6 +92,16 @@
         }
 
       }
+      
+      &.autocomplete {
+        input, .input-xxlarge {
+          // changing box-sizing we have to correct height
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          height: 28px !important;
+        }
+
+      }
 
       &.text {
         textarea {
