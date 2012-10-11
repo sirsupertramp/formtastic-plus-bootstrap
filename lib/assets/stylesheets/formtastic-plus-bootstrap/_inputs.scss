@@ -10,6 +10,7 @@ fieldset.inputs {
       @include clearfix();
 
       @import "inputs/stringish";
+      @import "inputs/autocomplete";
       @import "inputs/range";
       @import "inputs/text";
       @import "inputs/boolean";
